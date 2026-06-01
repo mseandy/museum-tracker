@@ -20,22 +20,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
           cache: 'npm'
-      - name: Install dependencies
-        # 关键修复：加上 --include=dev 确保开发依赖被安装
-        run: npm ci --include=dev
+      
+      - name: Clean install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+      
+      - name: Verify vite installation
+        run: |
+          ls -la node_modules/.bin/vite || echo "vite not found in node_modules/.bin"
+          npm list vite --depth=0
+      
       - name: Build
-        run: npm run build
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+        run: |
+          npm run build
+      
+      - name: List dist
+        run: ls -la dist/
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+  
   deploy:
     environment:
       name: github-pages
