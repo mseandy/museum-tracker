@@ -1,0 +1,18 @@
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  background: white;
+  outline: none;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.select:focus {
+  border-color: #4a90d9;
+}
