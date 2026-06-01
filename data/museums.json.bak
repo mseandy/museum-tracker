@@ -1,0 +1,15 @@
+{
+  "museums": [
+    {
+      "id": "锦州博物馆",
+      "name": "锦州博物馆",
+      "nameEn": "",
+      "city": "",
+      "country": "",
+      "description": "暂无信息",
+      "image": "",
+      "highlights": [],
+      "sourceUrl": ""
+    }
+  ]
+}

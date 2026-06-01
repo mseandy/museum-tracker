@@ -1,1 +1,15 @@
-{ "museums": [] }
+{
+  "museums": [
+    {
+      "id": "jin-zhou-bo-wu-guan",
+      "name": "锦州博物馆",
+      "nameEn": "辽沈战役纪念馆",
+      "city": "未知",
+      "country": "中国",
+      "description": "辽沈战役纪念馆是位於中華人民共和國遼寧省錦州市一所紀念遼沈戰役的专题纪念馆，该馆占地18.8万平方米，陈列有关辽沈战役战争和相关运动的历史文物藏品21428件，是国家4A级旅游景区、国家一级博物馆。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Liaoshen_Campaign_Memorial_Hall.jpg/500px-Liaoshen_Campaign_Memorial_Hall.jpg",
+      "highlights": [],
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E8%BE%BD%E6%B2%88%E6%88%98%E5%BD%B9%E7%BA%AA%E5%BF%B5%E9%A6%86"
+    }
+  ]
+}

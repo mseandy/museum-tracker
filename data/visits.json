@@ -1,1 +1,10 @@
-{ "visits": [] }
+{
+  "visits": [
+    {
+      "id": "v-20260523-jin-zhou-bo-wu-guan",
+      "museumId": "jin-zhou-bo-wu-guan",
+      "date": "2026-05-23",
+      "createdAt": "2026-06-01T10:00:24.482Z"
+    }
+  ]
+}
